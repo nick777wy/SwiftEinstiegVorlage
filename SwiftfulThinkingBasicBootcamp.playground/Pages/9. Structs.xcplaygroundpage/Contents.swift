@@ -27,6 +27,7 @@ struct Quiz {
         self.title = title
         self.dateCreated = dateCreated ?? .now
         self.isPremium = isPremium
+        // "self" is similar to "this" form java
     }
 }
 
