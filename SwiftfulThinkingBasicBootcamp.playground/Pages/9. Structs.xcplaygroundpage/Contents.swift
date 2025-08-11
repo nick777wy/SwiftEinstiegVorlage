@@ -109,6 +109,7 @@ print(user3)
 struct Usermodel4 {
     let name: String
     // private(set) says "you can read it from outside (the struct Usermodel4) but you can't write or edit it"
+    // will be explained in 12.AccessControl
     private(set) var isPremium: Bool
     
     // mutating says "this method will change something in this struct and won't just read it"
