@@ -29,7 +29,7 @@ import Foundation
  
  // Objects in the Stack
  // String, Bool, Int, most basic types
- // Struct ,Enum
+ // Struct ,Enum, Array
  
  // Objects in the Heap
  // Functions
@@ -56,7 +56,7 @@ import Foundation
  */
 
 
-struct MyFirst Object {
+struct MyFirstObject {
     let title: String = "Hello, World!"
 }
 
