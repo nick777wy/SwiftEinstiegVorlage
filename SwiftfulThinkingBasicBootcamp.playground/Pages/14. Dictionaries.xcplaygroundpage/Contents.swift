@@ -13,6 +13,9 @@ var fruitsSet: Set<String> = ["Apple", "Banana", "Orange", "Mango", "Pineapple"]
 print(fruitsSet)
 
 
+// Dictionaries are kinda like maps in Java
+
+
 var myFirstDictionary: [String: Bool] = [
     "Apple" : true,
     "Banana" : false
