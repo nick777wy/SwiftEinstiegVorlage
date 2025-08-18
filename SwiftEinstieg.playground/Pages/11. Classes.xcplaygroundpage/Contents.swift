@@ -10,7 +10,7 @@ import Foundation
 // All the data needed for some screen
 class ScreenViewModel {
     let title: String
-    pirvate(set) var showButton: Bool
+    private(set) var showButton: Bool
     
     // Same init as a Struct, exept structs have implicit inits
     init(title: String, showButton: Bool) {
@@ -37,7 +37,11 @@ class ScreenViewModel {
 // the object itself is not changing
 // the data inside the object is changing
 let viewModel: ScreenViewModel = ScreenViewModel(title: "Screen 1", showButton: true)
-viewModel.showButton = false
+
+// you can only get the value ov showButton but you can't give it a new value from outside the class, because we have set the "set" to private so you can't change it from outside
+
+//viewModel.showButton = false
+viewModel.showButton
 
 
 
